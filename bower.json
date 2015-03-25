@@ -1,0 +1,25 @@
+{
+  "name": "Toasty Alert",
+  "version": "0.0.1",
+  "authors": [
+    "Vinicius Gerevini <viniciusgerevini@gmail.com>"
+  ],
+  "description": "A Toasty! inspired alert",
+  "main": ["ToastyAlert.min.js", "toasty-alert.min.css", "./sound/toasty.mp3"],
+  "keywords": [
+    "toasty",
+    "easter egg"
+  ],
+  "license": "MIT",
+  "homepage": "http://thisisvini.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

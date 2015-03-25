@@ -1,0 +1,20 @@
+{
+  "name": "toasty-alert",
+  "version": "0.0.1",
+  "description": "A Toasty! inspired alert",
+  "main": "index.html",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "Toasty"
+  ],
+  "author": "Vinicius Gerevini",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.8.0",
+    "grunt-contrib-cssmin": "~0.12.2"
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toasty Alert!</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+
+
+    <meta name="description" content="Just a joke inspired in Mortal Kombat Toasty! easter egg">
+    <meta name="keywords" content="Mortal Kombat, Toasty!, MK, Easter egg">
+    <meta name="author" content="Vinicius Gerevini">
+
+    <link rel="stylesheet" href="toasty-alert.min.css"/>
+
+    <script src="ToastyAlert.min.js"></script>
+
+    <style>
+        *:focus {
+            outline: none;
+        }
+
+        html {
+        }
+
+        body {
+            background-color: #eee;
+            font-family: sans-serif;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        button {
+            cursor: pointer;
+            font-size: 24px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 3px;
+            border: none;
+            box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;
+        }
+    </style>
+
+</head>
+<body>
+    <p>
+        Mortal Kombat Toasty! inspired easter egg.
+    </p>
+
+    <button onclick="ToastyAlert.run();">Click to Toasty!</button>
+
+    <script>
+        (function() {
+            ToastyAlert.initialize();
+        })();
+    </script>
+</body>
+</html>
